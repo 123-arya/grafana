@@ -77,6 +77,4 @@ scrape_configs:
       expression: '\"(?P<method>GET|POST|PUT|DELETE) (?P<endpoint>/[a-zA-Z0-9_/]*) HTTP.*\" (?P<status>[0-9]{3})'
 
   - labels:
-      method:
-      endpoint:
       status:
